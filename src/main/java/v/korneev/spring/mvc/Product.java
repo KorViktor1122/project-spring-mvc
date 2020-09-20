@@ -5,15 +5,6 @@ public class Product {
     private Long id;
     private String title;
     private float price;
-    private float voluem;
-
-    public float getVoluem() {
-        return voluem;
-    }
-
-    public void setVoluem(float voluem) {
-        this.voluem = voluem;
-    }
 
     public Long getId() {
         return id;
