@@ -1,5 +1,7 @@
 package v.korneev.spring.mvc;
 
+import java.io.Serializable;
+
 public class Product {
 
     private Long id;
