@@ -1,6 +1,4 @@
-package v.korneev.spring.mvc;
-
-import java.io.Serializable;
+package v.korneev.spring.mvc.product;
 
 public class Product {
 
@@ -39,6 +37,5 @@ public class Product {
     }
 
     public Product(){
-
     }
 }

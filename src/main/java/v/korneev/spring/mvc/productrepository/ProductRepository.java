@@ -1,6 +1,7 @@
-package v.korneev.spring.mvc;
+package v.korneev.spring.mvc.productrepository;
 
 import org.springframework.stereotype.Component;
+import v.korneev.spring.mvc.product.Product;
 
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;
