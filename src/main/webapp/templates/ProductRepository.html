@@ -15,7 +15,7 @@
         <thead>
         <tr>
             <td>ID</td>
-            <td>Название</td>
+            <td>Наименование</td>
             <td>Цена</td>
             <td>Действия</td>
         </tr>
@@ -32,10 +32,9 @@
         </tbody>
     </table>
     <h2>Добавить продукт</h2>
-    <!--  http://localhost:8189/app/add_box  -->
 
     <form method="POST" th:action="@{/add_products}">
-        <input type="text" name="product" placeholder="Наименоване">
+        <input type="text" name="v.korneev.spring.mvc.product" placeholder="Наименоване">
         <input type="number" name="price" placeholder="Цена">
         <button class="btn btn-primary" type="submit">Добавить</button>
     </form>
